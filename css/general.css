@@ -1,0 +1,337 @@
+@charset "UTF-8";
+/* Responsive Setup */
+
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+/* CSS */
+
+html, body {
+	font-family:sans-serif;
+	margin:0;
+	padding:0;
+	width:100%;
+	line-height: 1.5rem;
+	letter-spacing: 1px;
+}
+
+main {
+	width:90%;
+	margin: 0 auto;
+}
+
+/* //////////////////////////////////////////////////////////////////// Header ////////////////////////////*/
+
+img {
+	width:100%;
+}
+
+.logo {
+	width: 100%;
+	margin-top:1.5rem;
+}
+
+nav {
+	width:100%;
+	background-color:#999;
+}
+
+nav ul {
+	list-style:none;
+}
+
+nav li {
+	display:inline;
+	margin-left:6%;
+}
+
+/*nav li:first-child {
+	border-right: solid;
+	border-right-color:#000000;
+} ////// Ask  For Help In doing this ////*/
+
+nav a,
+nav a:link,
+nav a:visited {
+	display:inline-block;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+	opacity:.6;
+}
+
+/* /////////////////////////////////////////////////////////////////// Main Content Home ///////////////////////*/
+
+.hours {
+	background-color:#CCCCCC;
+	margin-top: 5%;
+	padding: 2% 0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.hours p {
+	margin-left: 5%;
+	font-size:14px;
+	line-height: .5rem;
+}
+
+.hours h2 {
+	margin-left: 5%;
+	font-size:24px;
+}
+/* Remove if link is necessary
+.hours a,
+.hours a:link,
+.hours a:visited {
+	float:right;
+	margin-top: -1rem;
+	margin-right: 1rem;
+	font-size:12px;
+	color:#000000;
+	text-decoration:none;
+}
+
+.hours a:hover,
+.hours a:focus,
+.hours a:active {
+	opacity:.6;
+}*/
+
+/*/////////////////////////////////////////////////////////////////////// Main Content Price //////////////////////////*/
+
+.pricelist {
+	background-color:#CCCCCC;
+	
+}
+
+.pricelist h3 {
+	font-size:24px;
+	margin: 0;
+	margin-bottom: 2%;
+	padding-top: 5%;
+	padding-left: 5%;
+}
+
+.pricelist h4 {
+	font-size:18px;
+	font-weight:normal;
+	padding-left: 5%;
+	margin-bottom: 2%;
+}
+
+.pricelist ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.pricelist li {
+	font-size: 12px;
+	padding-left: 5%;
+}
+
+.nonmembers li:last-child {
+	padding-bottom: 5%;
+}
+
+.pricelist a,
+.pricelist a:link,
+.pricelist a:visited {
+	float:right;
+	margin-top: -1.5rem;
+	margin-right: 1rem;
+	font-size:12px;
+	color:#000000;
+	text-decoration:none;
+}
+
+.pricelist a:hover,
+.pricelist a:focus,
+.pricelist a:active {
+	opacity:.6;
+}
+
+/*/////////////////////////////////////////////////////////////////////// Schedule Main Content //////////////////////////*/
+
+.schedule {
+	margin-bottom: 2rem;
+}
+
+.days {
+	margin-bottom:-.5rem;
+}
+
+.days ul {
+	display:inline-block;
+	list-style:none;
+}
+
+.days li {
+	font-size:14px;
+	display:inline;
+	margin-right: 2%;
+}
+
+.days li:first-child {
+	margin-left:15%;
+}
+
+.swimtypes {
+	display:inline-block;
+	list-style:none;
+	width: 5rem;
+	padding-left:0;
+}
+
+.swimtypes li {
+	font-size:14px;
+	line-height: 3rem;
+	display:inline;
+	letter-spacing:0;
+}
+
+.mon {
+	font-size:11px;
+	line-height: 3rem;
+	width:2.5rem;
+	margin-left:12.3%;
+	margin-top: -15.8rem;
+}
+
+.mon li {
+	margin-right:2%;
+	display:inline;
+	list-style:none;
+}
+
+.tue {
+	font-size:11px;
+	line-height: 3rem;
+	width:2.5rem;
+	margin-left:24.2%;
+	margin-top: -15.7rem;
+}
+
+.tue li {
+	margin-right:2%;
+	background-color:#CCCCCC;
+	display:inline;
+	list-style:none;
+}
+
+.wed {
+	font-size:11px;
+	line-height: 3rem;
+	width:2.5rem;
+	margin-left:35.6%;
+	margin-top: -15.7rem;
+}
+
+.wed li {
+	margin-right:2%;
+	display:inline;
+	list-style:none;
+}
+
+.thu {
+	font-size:11px;
+	line-height: 3rem;
+	width:2.5rem;
+	margin-left:47%;
+	margin-top: -15.63rem;
+}
+
+.thu li {
+	background-color:#CCCCCC;
+	margin-right:2%;
+	display:inline;
+	list-style:none;
+}
+
+.fri {
+	font-size:11px;
+	line-height: 3rem;
+	width:2.5rem;
+	margin-left:58%;
+	margin-top: -15.63rem;
+}
+
+.fri li {
+	margin-right:2%;
+	display:inline;
+	list-style:none;
+}
+
+.sat {
+	font-size:11px;
+	line-height: 3rem;
+	width:2.5rem;
+	margin-left:68%;
+	margin-top: -15.69rem;
+}
+
+.sat li {
+	margin-right:2%;
+	display:inline;
+	list-style:none;
+}
+
+.sun {
+	font-size:11px;
+	line-height: 3rem;
+	width:2.5rem;
+	margin-left:79%;
+	margin-top: -15.63rem;
+}
+
+.sun li {
+	margin-right:2%;
+	display:inline;
+	background-color:#CCC;
+	list-style:none;
+}
+
+.schedule a,
+.schedule a:link,
+.schedule a:visited {
+	float:right;
+	margin-top: -1rem;
+	font-size:12px;
+	color:#000000;
+	text-decoration:none;
+}
+
+.schedule a:hover,
+.schedule a:focus,
+.schedule a:active {
+	opacity:.6;
+}
+/*/////////////////////////////////////////////////////////////////////// Footer //////////////////////////*/
+
+footer {
+	width:100%;
+	height: 3rem;
+	background-color:#666;
+}
+
+footer p {
+	padding-top:.75rem;
+	font-size:12px;
+	margin-left: 2%;
+	color:#FFFFFF;
+}
